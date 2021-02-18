@@ -18,8 +18,8 @@ function Contador() {
     
     return (
         <div>
-            <div>{contador}</div>
             <button onClick={adicionarContador}>Clica aqui pra saber</button>
+            <div>Ele é {contador} vez bobo</div>
         </div>
     )
 }
