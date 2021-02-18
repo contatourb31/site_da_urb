@@ -8,3 +8,5 @@ function Home() {
 }
 
 <a>Home</a>
+
+export default Home
