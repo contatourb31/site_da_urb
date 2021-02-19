@@ -10,9 +10,9 @@ export default function Home() {
 
       <main>
 
-      <br></br>
-      <br></br>
-      <br></br>
+      <br />
+      <br />
+
         <a href="https://linktr.ee/Urb31"><h1 className="title">
 
         URB 31 <img src="https://d1fdloi71mui9q.cloudfront.net/BG3spdi8RNihxRPd2GiG_ZMU9R5916jdJd9K2" alt="Vercel Logo" className="logo" />
@@ -23,13 +23,17 @@ export default function Home() {
         </p>
 
 
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<br/>
+<br/>
 
         <p className="description">
           Site em construção...
+        </p>
+<br />
+<br />
+        <p className="description">
+        <a href="mailto:contato@urb31.com">contato@urb31.com</a><br />
+        <a href="https://api.whatsapp.com/send?phone=5531992950279">+55 31 99295-0279</a>
         </p>
 
       </main>
@@ -40,7 +44,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by URB 31{' '}
           <img src="https://d1fdloi71mui9q.cloudfront.net/BG3spdi8RNihxRPd2GiG_ZMU9R5916jdJd9K2" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
