@@ -15,9 +15,8 @@ export default function Home() {
 
         <a href="https://linktr.ee/Urb31"><h1 className="title">
 
-        URB 31 <img src="https://d1fdloi71mui9q.cloudfront.net/BG3spdi8RNihxRPd2GiG_ZMU9R5916jdJd9K2" alt="Vercel Logo" className="logo" />
+        URB 31 <img src="https://d1fdloi71mui9q.cloudfront.net/BG3spdi8RNihxRPd2GiG_ZMU9R5916jdJd9K2" alt="URB 31 Logo" className="logo" />
         </h1></a>
-
         <p className="description">
           SOLUÇÕES URBANÍSTICAS
         </p>
@@ -32,8 +31,10 @@ export default function Home() {
 <br />
 <br />
         <p className="description">
-        <a href="mailto:contato@urb31.com">contato@urb31.com</a><br />
-        <a href="https://api.whatsapp.com/send?phone=5531992950279">+55 31 99295-0279</a>
+        <img src="https://img2.gratispng.com/20180718/vws/kisspng-email-logo-bounce-address-computer-icons-message-online-application-5b4f433eed6ac1.5937710415319212149725.jpg" className="logo" />
+        <a href="mailto:contato@urb31.com" className="email"> contato@urb31.com</a><br />
+        <img src="https://whatsappbrand.com/wp-content/themes/whatsapp-brc/apple-icon-180x180.png" className="logo" />
+        <a href="https://api.whatsapp.com/send?phone=5531992950279" className="fone"> +55 31 99295-0279</a>
         </p>
 
       </main>
@@ -50,6 +51,13 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
+        .email {
+            color: darkBlue;
+        }
+        .fone {
+            color: darkBlue;
+            font-size: 22px;
+        }
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
